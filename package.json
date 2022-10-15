@@ -1,0 +1,12 @@
+{
+  "name": "MonoRepoTemplate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/heatherbarney/MonoRepoTemplate.git",
+  "author": "Heather Barney",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
