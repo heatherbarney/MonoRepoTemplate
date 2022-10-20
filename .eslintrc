@@ -6,10 +6,8 @@
       "jest": true
     },
     "extends": [
-      "plugin:react/recommended",
       "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "eslint-config-prettier"
+      "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -19,19 +17,5 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     },
-    "plugins": ["react-hooks", "@typescript-eslint"],
-    "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/prop-types": "off"
-    },
-    "settings": {
-      "react": {
-        "createClass": "createReactClass",
-        "pragma": "React",
-        "fragment": "Fragment",
-        "version": "detect",
-        "flowVersion": "0.53"
-      }
-    }
+    "plugins": ["@typescript-eslint"]
   }
