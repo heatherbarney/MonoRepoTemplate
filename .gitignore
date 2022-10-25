@@ -9,6 +9,9 @@ jspm_packages/
 # TypeScript cache
 *.tsbuildinfo
 
+#TypeScript build files
+*.dist.*
+
 # Logs
 logs
 *.log
