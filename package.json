@@ -12,6 +12,7 @@
   "scripts": {
     "build": "scripty",
     "clean": "scripty",
+    "format": "prettier --write .",
     "lint": "scripty",
     "test": "scripty"
   },
