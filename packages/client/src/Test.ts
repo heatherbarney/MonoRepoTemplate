@@ -1,3 +1,5 @@
+export {};
+
 const message = "Hello World!";
 
 function myFunc(message: string): string {
