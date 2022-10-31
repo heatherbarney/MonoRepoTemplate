@@ -27,6 +27,7 @@
     "@typescript-eslint/parser": "^5.40.0",
     "commitlint": "^17.1.2",
     "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
     "lerna": "^6.0.1",
     "lerna-changelog": "^2.2.0",
