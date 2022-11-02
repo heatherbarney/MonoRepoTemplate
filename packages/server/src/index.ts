@@ -1,10 +1,12 @@
 import express, { Express, Request, Response } from "express";
+import TestController from "./testController"
 
 const app: Express = express();
 const port = 8000;
+const testController = new TestController;
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript Server");
+app.get("/", testController.sendMessage, (req: Request, res: Response) => {
+  res.send(res.locals.message);
 });
 
 app.listen(port, () => {
